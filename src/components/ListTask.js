@@ -5,7 +5,7 @@ import Addtask from "./Addtask";
 
 function ListTask() {
   const Tasks = useSelector((state) => state.task.tasks);
-
+  console.log(Tasks);
   return (
     <div className="tasks">
       <h1 className="to">To Do List</h1>
